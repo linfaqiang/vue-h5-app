@@ -1,0 +1,68 @@
+.applications{
+	width: 100%;
+	height: 100%;
+	padding-bottom: 50px;
+}
+.list-container{
+	
+}
+.list-container .list-title{
+	position: relative;
+	height: 32px;
+	line-height: 32px;
+	color: #848484;
+	font-size: 15px;
+	text-align: left;
+	text-indent: 24px;
+}
+.list-container .list-title:before{
+	content: "";
+	display: block;
+	position: absolute;
+	left: 10px;
+	top: 50%;
+	transform: translateY(-50%);
+	-webkit-transform: translateY(-50%);
+	width: 4px;
+	height: 15px;
+	background-color: #d00506;
+}
+.list-container .list-content{
+	background-color: #fff;
+}
+.list-container .list-content ul{
+	display: flex;
+  display: -webkit-box;
+  display: -webkit-flex;
+  flex-wrap: wrap;
+  -webkit-flex-wrap: wrap;
+  padding-bottom: 8px;
+}
+.list-container .list-content ul li{
+	width: 25%;
+	padding: 2% 0 0 0;
+	overflow: hidden;
+}
+.list-container .list-content ul li > a{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+.list-container .list-content ul li > a > b{
+	display: block;
+	height: 52px;
+	text-align: center;
+}
+.list-container .list-content ul li > a > b > img{	
+	width: 52px;
+	height: 52px;
+	overflow: hidden;
+}
+
+.list-container .list-content ul li > a > span{
+	display: block;
+	padding-top: 6px;
+	color: #848484;
+	font-size: 13px;
+	overflow: hidden;
+}

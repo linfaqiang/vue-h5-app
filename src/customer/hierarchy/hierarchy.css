@@ -1,0 +1,271 @@
+.hierarchy-con{
+    padding-top: 80px;
+    padding-left: 20px;
+    background: #fff;
+}
+.hierarchy-list {
+    position: relative;
+    padding-left: 75px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+.hierarchy-list .hierarchy-right{
+    border-bottom: 1px solid #e5e5e5;
+    padding-bottom: 20px;
+}
+.hierarchy-list:last-of-type .hierarchy-right{
+    border-bottom: 0;
+}
+.hierarchy-list .hierarchy-right h5{
+    font-size: 14px;
+    color: #333;
+    font-weight: normal;
+}
+.hierarchy-list .hierarchy-right p{
+    font-size: 13px;
+    color: #999;
+    height: 21px;
+    margin-bottom: 10px;
+    /*text-indent: 10px;*/
+}
+.hierarchy-list .hierarchy-icon{
+    position: absolute;
+    z-index: 2;
+    left: 0; top: 0; display: block;
+    width:60px; height: 60px;
+    border-radius: 60px;
+    background: #FEE9EA;
+    padding: 5px 0 0 5px;
+}
+.hierarchy-list .hierarchy-icon .icon-in{
+    display: block;
+    line-height: 50px;
+    text-align: center;
+    width:50px; height: 50px;
+    border-radius: 50px;
+    background: #FD878A;
+    font-size: 14px;
+    color: #fff;
+}
+.hierarchy-list .line_left{
+    position: absolute;
+    height: 100%;
+    width: 2px;
+    background: #E4E4E4;
+    display: block;
+    top: 3px;
+    left: 30px;
+}
+
+
+
+/*客户编辑*/
+.add_form{
+    padding-top: 44px;
+}
+.add_form> ul {
+    border-top: 1px solid #cbcbcb;
+    border-bottom: 1px solid #cbcbcb;
+    padding: 0;
+    padding-left: 18px;
+    margin: 10px 0 0 0;
+    background: #fff;
+}
+
+.add_form> ul:first-child {
+    margin-top: 0;
+}
+
+.add_form> ul> li {
+    min-height: 44px;
+    line-height: 16px;
+    padding: 16px 30px 20px 0;
+    border-bottom: 1px solid #e3e3e3;
+    margin-left: 0;
+    /*width: calc(100% - 40px);*/
+    width: 100%;
+    position: relative;
+}
+
+.add_form> ul> li.datetime {
+    padding: 0 10px 0 0;
+}
+
+.add_form> ul> li.datetime> a {
+    color: #333;
+    font-size: 12px;
+    display: inline-block;
+    padding: 15px 0;
+    min-width: 116px;
+}
+
+.add_form> ul> li.datetime> a.not {
+    color: #ccc;
+}
+
+.add_form> ul> li.datetime> a:before {
+    font-size: 16px;
+    padding: 0 10px;
+}
+
+.add_form> ul> li> span {
+    display: block;
+    line-height: 16px;
+    min-height: 16px;
+    font-size: 14px;
+    color: #333;
+}
+.add_form> ul> li> .parent-edit{
+    width: 90%;
+    display: block;
+    line-height: 25px;
+    margin-right: 0;
+}
+.add_form> ul> li> .parent-edit span{
+    display: block;
+}
+.add_form> ul> li> .parent-edit .remarks{
+    font-size: 14px;
+    color: #999;
+}
+.add_form> ul> li> .parent-beizhu{
+    display: inline-block;
+    width: 80%;
+}
+.add_form> ul> li> span.f_14{
+    font-size: 14px;
+}
+.add_form> ul> li> .right-customer {
+    position: absolute;
+    right: 15px;
+    top: 19px;
+    color: #666;
+    font-size: 14px;
+
+}
+.add_form> ul> li> .mui-icon-dustbin{
+    position: absolute;
+    right: 7px;
+    top: 13px;
+    padding: 10px 15px;
+    width: 40px;
+    height: 40px;
+}
+.add_form> ul> li> .remarks{
+    padding-top: 10px;
+    margin-bottom: 0;
+}
+.add_form> ul> li> .addChildren{
+    position: absolute;
+    text-align: center;
+    line-height: 23px;
+    width: 55px;
+    height: 25px;
+    right: 15px;
+    top: 15px;
+    font-size: 12px;
+    color: #d61518;
+    border: 1px solid #ccc;
+    border-radius: 2px;
+}
+.add_form> ul> li> .crm-search{
+    position: absolute;
+    right: 15px;
+    top: 18px;
+}
+
+.add_form> ul> li> .addChildren .big{
+    font-size: 18px;
+    margin-right: 2px;
+    position: relative;
+    top: 1px;
+}
+
+.add_form> ul> li> span.not {
+    color: #ccc;
+}
+
+.add_form> ul> li> em {
+    position: absolute;
+    font-size: 14px;
+    color: #ccc;
+    right: 0;
+    top: 50%;
+    line-height: 44px;
+    width: 30px;
+    text-align: center;
+    margin-top: -22px;
+}
+
+.add_form> ul> li> em.close {
+    font-size: 10px;
+}
+
+.add_form> ul> li.arrows:after {
+    content: "\A126";
+    position: absolute;
+    top: 50%;
+    margin-top: -7px;
+    right: 10px;
+    color: #cbcbcb;
+    font-size: 14px;
+}
+
+.add_form> ul> li:last-child {
+    border: 0;
+}
+
+.add_form> ul> li:before {
+    position: absolute;
+    font-size: 15px;
+    left: -26px;
+    top: 50%;
+    margin-top: -8px;
+}
+
+.add_form> ul> li> input {
+    border: 0;
+    color: #333;
+    font-size: 14px;
+    line-height: 16px;
+    height: 16px;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+.add_form> ul> li> input::-webkit-input-placeholder {
+    color: #ccc;
+    font-size: 15px;
+}
+
+.con_list .crm-check{
+    position: absolute;
+    right: 15px; top: 36px;
+    font-size: 12px; color: #d61518;
+}
+.con_list .name{
+    line-height: 12px !important;
+}
+.add_form .texTarea{
+    position: absolute;
+    border: none;
+    left: 35px;
+    bottom: 4px;
+    height: 30px !important;
+    font-size: 14px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

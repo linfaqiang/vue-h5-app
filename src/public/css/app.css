@@ -1,0 +1,867 @@
+/**
+ *     CRM默认风格（红色）
+ * */
+/**
+     * header bar 默认样式
+ */
+body {
+  -webkit-font-smoothing: antialiased;
+}
+
+.mui-bar-nav ~ .mui-content {
+  padding-top: 44px;
+  background: #f1f1f1;
+}
+
+.mui-bar-nav {
+  background-color: #1AAD19;
+  position: fixed;
+}
+.mui-bar-nav a {
+  color: #FFFFFF;
+}
+
+.mui-bar-nav .mui-title {
+  color: #FFFFFF;
+  font-size: 16px !important;
+  font-weight: normal !important;
+}
+
+.mui-bar-nav > h1 > span {
+  position: absolute !important;
+  top: 50%;
+  left: 50%;
+  color: #fff;
+  margin: -15px 0 0 32px !important;
+  padding: 0 !important;
+}
+
+.mui-bar-nav > h1 > span:after {
+  font-size: 8px !important;
+}
+
+.mui-bar-nav .mui-btn-link {
+  color: #FFFFFF;
+}
+
+.sideline_up {
+  position: relative;
+}
+
+.sideline_up:before {
+  position: absolute;
+  right: 0;
+  top: 0;
+  height: 1px;
+  content: '';
+  -webkit-transform: scaleY(.5);
+  transform: scaleY(.5);
+  background-color: #c8c7cc;
+  width: 100%;
+}
+
+.sideline_down {
+  position: relative;
+}
+
+.sideline_down:after {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  height: 1px;
+  content: '';
+  -webkit-transform: scaleY(.5);
+  transform: scaleY(.5);
+  background-color: #c8c7cc;
+  width: 100%;
+}
+
+/**
+     * footer bar
+ */
+.mui-bar-tab {
+  -webkit-tap-highlight-color: transparent;
+  color: #CCCCCC;
+}
+
+/**
+*app icons
+*/
+
+.crm-left-arrow:after {
+  content: '\a122';
+}
+
+.crm-solid-lower-triangle:after {
+  content: '\a123';
+}
+
+.crm-search:after {
+  content: '\a124';
+}
+
+.crm-plus:before {
+  content: '\a125';
+}
+
+.crm-distribution:before {
+  content: '\a264';
+}
+
+.crm-done:before {
+  content: '\a265';
+}
+
+.crm-navigate-right:after {
+  content: '\a126';
+}
+
+.crm-navigate-right-b:before {
+  content: '\a126';
+}
+
+.crm-circle:after {
+  content: '\a127';
+}
+
+.crm-solid-check:after {
+  content: '\a128';
+}
+
+.crm-multiple-circle:before {
+  content: '\a127';
+}
+
+.crm-multiple-check:before {
+  content: '\a128';
+}
+
+.crm-solid-up-triangle:after {
+  content: '\a129';
+}
+
+.crm-loading:after {
+  content: '\a130';
+}
+
+.crm-check:after {
+  content: '\a131';
+}
+
+.crm-edit:after {
+  content: '\a132';
+}
+
+.crm-push-down:after {
+  content: '\a133';
+}
+
+.crm-push-up:after {
+  content: '\a134';
+}
+
+.crm-sales-activities:after {
+  content: '\a135';
+}
+
+.crm-sales-opportunities:after {
+  content: '\a136';
+}
+
+.crm-contact-person:after {
+  content: '\a137';
+}
+
+.crm-task:after {
+  content: '\a138';
+}
+
+.crm-close:after {
+  content: '\a139';
+}
+
+.crm-phone:after {
+  font-size: 18px;
+  content: '\E200';
+}
+
+.crm-addr:after {
+  font-size: 18px;
+  content: '\E303';
+}
+
+.crm-icon-birthday:before{
+  content: '\A205';
+}
+
+.crm-clues:after {
+  content: '\A206';
+}
+
+.crm-icon-clues:after {
+  content: '\A212';
+}
+
+.crm-icon-chance:after {
+  content: '\A142';
+}
+
+.crm-read:after {
+  content: '\E568';
+}
+
+.crm-icon-rank:before {
+  content: '\A221';
+}
+
+.crm-icon-docx:before {
+  content: '\A214';
+  color: #2D7BFB;
+}
+
+.crm-icon-doc:before {
+  content: '\A214';
+  color: #2D7BFB;
+}
+
+.crm-icon-xlsx:before {
+  content: '\A215';
+  color: #29aa5d;
+}
+
+.crm-icon-xls:before {
+  content: '\A215';
+  color: #29aa5d;
+}
+
+.crm-icon-pptx:before {
+  content: '\A216';
+  color: #f99430
+}
+
+.crm-icon-ppt:before {
+  content: '\A216';
+  color: #f99430
+}
+
+.crm-icon-unkonw:before {
+  content: '\A217';
+  color: #999;
+}
+
+.crm-icon-pdf:before {
+  content: '\A218';
+  color: #d34040;
+}
+
+.crm-icon-main:before {
+  content: '\A146';
+}
+
+.crm-icon-staff:before {
+  content: '\A147';
+}
+
+.crm-icon-flag:before {
+  content: '\A262';
+}
+
+.crm-icon-mission:before {
+  content: '\A235';
+}
+/*线索*/
+.crm-icon-clue:before {
+  content: '\A256';
+}
+
+/*销售产品*/
+.crm-icon-product:before {
+  content: '\A208';
+}
+
+/*销售产品*/
+.crm-icon-task:before {
+  content: '\A207';
+}
+
+/*销售报价*/
+.crm-icon-sales:before {
+  content: '\A209';
+}
+
+/*销售对手*/
+.crm-icon-rival:before {
+  content: '\A210';
+}
+
+/*销售联系人*/
+.crm-icon-con:before {
+  content: '\A211';
+}
+
+.crm-icon-ongoing:before {
+  content: '\A229';
+}
+
+.crm-icon-finish:before {
+  content: '\A230';
+}
+
+/*头部按钮替换mui*/
+/*新建*/
+.mui-icon-plusempty:before {
+  content: "\A125";
+  font-size: 20px;
+  padding: 2px;
+  display: inline-block;
+}
+
+/*搜索*/
+.mui-icon-search:before {
+  content: "\A124";
+  font-size: 20px;
+  padding: 2px;
+  display: inline-block;
+}
+
+/*返回*/
+.mui-icon-back:before, .mui-icon-left-nav:before {
+  content: "\A122";
+  font-size: 18px;
+  padding: 2px;
+  display: inline-block;
+}
+
+/*编辑*/
+.mui-icon-compose:before {
+  content: "\A219";
+  font-size: 20px;
+  padding: 2px;
+  display: inline-block;
+}
+
+/*名片扫描*/
+.mui-icon-scan:before {
+  content: "\A176";
+  font-size: 20px;
+  padding: 2px;
+  display: inline-block;
+}
+
+/*姓名*/
+.mui-icon-name:before {
+  content: "\A156";
+}
+
+/*职位*/
+.mui-icon-duty:before {
+  content: "\A162"; /*暂时*/
+}
+
+/*编辑头像*/
+.mui-icon-edit-head:before {
+  content: "\A222";
+}
+
+/*行业类别*/
+.mui-icon-category:before {
+  content: "\A160";
+}
+
+/*父客户*/
+.mui-icon-parent:before {
+  content: "\A271";
+}
+
+/*收入*/
+.mui-icon-income:before {
+  content: "\A163";
+}
+
+/*CEO*/
+.mui-icon-ceo:before {
+  content: "\A164";
+}
+
+/*手机*/
+.mui-icon-mobile:before {
+  content: "\A145";
+}
+
+/*短信*/
+.mui-icon-msm:before {
+  content: "\A149";
+}
+
+/*座机*/
+.mui-icon-phone:before {
+  content: "\A150";
+}
+
+/*客户*/
+.mui-icon-customer:before {
+  content: "\A166";
+}
+
+.mui-icon-clues-manage:before {
+  content: "\A166";
+}
+
+/*地址*/
+.mui-icon-address:before {
+  content: "\A157";
+}
+
+/*地址*/
+.mui-icon-address-api:before {
+  content: "\A184";
+}
+
+/*部门*/
+.mui-icon-dep:before {
+  content: "\A165";
+}
+
+/*生日*/
+.mui-icon-birthday:before {
+  content: "\A167";
+}
+
+/*QQ*/
+.mui-icon-qq:before {
+  content: "\A189";
+}
+
+/*微信*/
+.mui-icon-wx:before {
+  content: "\A190";
+}
+
+/*MAIL*/
+.mui-icon-mail:before {
+  content: "\A151";
+}
+
+/*网址*/
+.mui-icon-domain:before {
+  content: "\A161";
+}
+
+/*销售活动类型*/
+.mui-icon-ac-type:before {
+  content: "\A180";
+}
+
+/*开始时间*/
+.mui-icon-start:before {
+  content: "\A179";
+}
+
+/*结束时间*/
+.mui-icon-end:before {
+  content: "\A185";
+}
+
+/*费用类型*/
+.mui-icon-fee:before {
+  content: "\A181";
+}
+
+/*金额*/
+.mui-icon-money:before {
+  content: "\A175";
+}
+
+/*机会*/
+.mui-icon-chance:before {
+  content: "\A182";
+}
+
+/*拍照*/
+.mui-icon-photograph:before {
+  content: "\A183";
+}
+
+/*录音*/
+.mui-icon-voice:before {
+  content: "\A152";
+}
+
+/*语音录入*/
+.mui-icon-sound:before {
+  content: "\A177";
+}
+
+/*话筒*/
+.mui-icon-tube:before {
+  content: "\A153";
+}
+
+/*客户名称*/
+.mui-icon-cust:before {
+  content: "\A155";
+}
+
+/*删除*/
+.mui-icon-delete:before {
+  content: "\A148";
+}
+
+/*附件删除*/
+.mui-icon-appendix-delete:before {
+  content: "\E440";
+}
+
+/*金额*/
+.mui-icon-amount:before {
+  content: "\A203";
+}
+
+/*人员*/
+.mui-icon-emp:before {
+  content: "\A223";
+}
+
+/*机会跟进阶段*/
+.mui-icon-stage:before {
+  content: "\A224";
+}
+
+/*竞争对手*/
+.mui-icon-rival:before {
+  content: "\A202";
+}
+
+/*商机详情 产品中的编辑*/
+.mui-icon-edit:before {
+  content: "\A226";
+}
+
+/*商机详情 产品中的删除*/
+.mui-icon-dustbin:before {
+  content: "\A227";
+}
+
+/*退出*/
+.mui-icon-cancel:before {
+  content: "\A225";
+}
+
+/*商机来源*/
+.mui-icon-source:before {
+  content: "\A233";
+}
+
+/*商机阶段*/
+.mui-icon-confirm:before {
+  content: "\A168";
+}
+
+/*商机状态*/
+.mui-icon-status:before {
+  content: "\A169";
+}
+
+/*商机成功率*/
+.mui-icon-rate:before {
+  content: "\A170";
+}
+
+/*商机预测金额*/
+.mui-icon-forecast-money:before {
+  content: "\A171";
+}
+
+/*商机预测成交日期*/
+.mui-icon-forecast-make:before {
+  content: "\A172";
+}
+
+/*商机关闭原因*/
+.mui-icon-close:before {
+  content: "\A173";
+}
+
+/*商机成交金额*/
+.mui-icon-make-money:before {
+  content: "\A175";
+}
+
+/*商机成交日期*/
+.mui-icon-make-date:before {
+  content: "\A234";
+}
+
+/*必填项 红色*/
+.mui-must:before {
+  color: #cb0101;
+}
+
+/*非必填项 灰色*/
+.mui-not-must:before {
+  color: #cbcbcb;
+}
+
+.crm-icon-priceEdit:before {
+  content: '\A219';
+}
+
+.crm-icon-collect:after {
+  content: '\A159';
+}
+
+.mui-icon-collect:before {
+  content: '\A159';
+}
+
+.crm-icon-collects:after {
+  content: '\A252';
+}
+
+/*报价名称*/
+.mui-icon-cName:after {
+  content: "\A155";
+}
+
+/*销售状态*/
+.mui-icon-nd:after {
+  content: "\A231";
+}
+
+/*商机*/
+.mui-icon-salechance:after {
+  content: "\A232";
+}
+
+/*添加报价行*/
+.mui-icon-addbjh:after {
+  content: "\A204";
+}
+
+/*消息中心，显示消息类别*/
+.mui-icon-message-type:after {
+  content: "\A236";
+}
+
+/*消息中心，消息类别*/
+.mui-icon-message-show:after {
+  content: "\A237";
+}
+
+/*消息中心 业务消息*/
+.mui-icon-business:before {
+  content: "\A238";
+  color: #e7ae26;
+}
+
+/*消息中心 审批消息*/
+.mui-icon-approve:before {
+  content: "\A239";
+  color: #de4241;
+}
+
+/*消息中心 任务消息*/
+.mui-icon-task:before {
+  content: "\A240";
+  color: #33b495;
+}
+
+/*消息中心 公告消息*/
+.mui-icon-notice:before {
+  content: "\A241";
+  color: #e7ae26;
+}
+
+/*消息中心 工作报告消息*/
+.mui-icon-workReport:before {
+  content: "\A242";
+  color: #de4241;
+}
+
+/*闹钟*/
+.mui-icon-clock:before {
+  content: "\A186";
+}
+
+.mui-radio input[type=radio]:before {
+  content: '\A127';
+}
+
+.mui-checkbox input[type=checkbox]:before,
+.mui-checkbox-crm input[type=checkbox]:before {
+  content: "\A127";
+}
+
+.mui-checkbox input[type=checkbox]:checked:before,
+.mui-checkbox-crm input[type=checkbox]:checked:before{
+  content: "\A128";
+}
+
+.mui-checkbox input[type=checkbox] {
+  top: 20px !important;
+}
+
+.mui-checkbox input[type=checkbox]:before,
+.mui-checkbox-crm input[type=checkbox]:before,
+.mui-radio input[type=radio]:before {
+  font-size: 24px;
+}
+
+/*工作报告类型*/
+.mui-icon-workReport-type:before {
+  content: "\A174";
+}
+
+/*工作报告 当前总结*/
+.mui-icon-workReport-summary:before {
+  content: "\A187";
+}
+
+/*工作报告 工作计划*/
+.mui-icon-workReport-plan:before {
+  content: "\A188";
+}
+
+/*移除商机联系人*/
+.mui-icon-remove:before {
+  content: "\A263";
+  color: #cb0101;
+}
+
+.detail-money:before {
+  content: '¥';
+  font-size: 14px !important;
+  position: relative;
+  top: 2px;
+}
+
+/*放大镜*/
+.mui-icon-glass:before {
+  content: "\E466";
+}
+
+/*loading 删除*/
+.mui-icon-load-delete:before {
+  content: "\A121";
+}
+
+/*加载中css*/
+.loading {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  background: transparent;
+  z-index: 10000;
+}
+
+.loading > div {
+  height: 50px;
+  width: 192px;
+  background: #000;
+  opacity: 0.7;
+  border-radius: 5px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-top: -25px;
+  margin-left: -86px;
+}
+
+.loading > div > a:nth-child(1) {
+  width: 140px;
+  border-right: 1px solid #353535;
+}
+
+.loading > div > a:nth-child(2) {
+  width: 50px;
+  position: absolute;
+  right: 0;
+  font-size: 12px;
+  color: #fff;
+  padding: 18px;
+}
+
+.loading > div > a {
+  display: inline-block;
+  height: 100%;
+}
+
+.loading > div > a > img {
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  top: 15px;
+  left: 14px;
+}
+
+.loading > div > a > span {
+  padding-left: 44px;
+  font-size: 12px;
+  color: #fff;
+  line-height: 50px;
+}
+
+/*加载中css end*/
+/*无数据*/
+.list_is_null {
+  font-family: Muiicons;
+  font-size: 100px;
+  font-style: normal;
+  line-height: 1;
+  display: inline-block;
+  text-decoration: none;
+  -webkit-font-smoothing: antialiased;
+  position: absolute;
+  height: 50%;
+  width: 100%;
+  min-height: 200px;
+}
+
+.list_is_null:before {
+  content: "\A198";
+  color: #e8e8e8;
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  margin-left: -50px;
+}
+
+.list_is_null:after {
+  font-size: 14px;
+  content: "\暂无数据";
+  color: #cccccc;
+  width: 100%;
+  display: inline-block;
+  text-align: center;
+  position: absolute;
+  top: 20%;
+  margin-top: 120px;
+}
+
+/*无数据 end*/
+/*翻页  已加载全部*/
+.mui-pull-caption {
+  font-size: 14px;
+  color: #bcbcbc;
+}
+
+.mui-pull-loading {
+  color: #c1c1c1;
+}
+
+/*路由切换动画*/
+.back-transition {
+  transition: transform .5s ease;
+}
+
+.back-enter {
+  transform: translate(100%, 0);
+}
+
+.back-leave {
+  transform: translate(-100%, 0);
+}

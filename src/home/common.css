@@ -1,0 +1,26 @@
+@CHARSET "UTF-8";
+html * {
+	-webkit-outline: none;
+	outline: 0;
+	-webkit-tap-highlight-color: rgba(255,255,255,0);
+}
+body{font-family: Helvetica, "Microsoft Yahei", "Heiti SC", "Droid Sans", "Droidsansfallback", SimSun, sans-serif; line-height: 1.42857143;}
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,button,textarea,blockquote,th,td,p{margin:0;padding:0}
+input,button,select,textarea{-webkit-appearance:none; appearance:none; outline:none; border:0; border-radius: 0;}
+ol,ul,li{list-style:none}
+h1,h2,h3,h4,h5,h6 {font-weight:normal}
+a{text-decoration:none;cursor:pointer;}
+a:hover{text-decoration:none;}
+a:focus{outline:0;}
+a,img { -webkit-touch-callout: none }
+b{
+  font-weight: normal;
+}
+
+/*公共*/
+.pt_5{
+	padding-top: 5px;
+}
+.pt_15{
+	padding-top: 15px;
+}

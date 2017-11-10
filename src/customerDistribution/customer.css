@@ -1,0 +1,504 @@
+/*列表*/
+.list_customer {
+  margin-top: 10px;
+  background: #fff;
+}
+
+.list_customer:nth-child(1) {
+  margin: 0;
+}
+
+.list_customer > div.content {
+  width: 100%;
+  height: 54px;
+  padding-left: 16px;
+  position: relative;
+}
+
+.list_customer > div.content:after {
+  right: 0;
+}
+
+.list_customer > div.content > p {
+  margin: 8px 24px 0 0;
+  height: 16px;
+  line-height: 16px;
+  font-size: 12px;
+  color: #999;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.list_customer > div.content > p > span.mui-icon {
+  font-size: 14px;
+  padding-right: 2px;
+}
+
+.list_customer > div.content > p.title {
+  color: #333;
+  font-size: 14px;
+  margin: 8px 110px 0 0;
+}
+
+.list_customer > div.content > span {
+  position: absolute;
+  font-size: 12px;
+  color: #999;
+  top: 9px;
+  right: 32px;
+  line-height: 16px;
+}
+
+.list_customer > div.content > span.red {
+  color: #cb0101;
+}
+
+.list_customer > div.content > span.blue {
+  color: #37a7d0;
+}
+
+.list_customer > div.label {
+  width: 100%;
+  height: 32px;
+  display: block;
+}
+
+.list_customer > div.label > span {
+  display: block;
+  width: 21%;
+  text-align: center;
+  font-size: 12px;
+  color: #999;
+  line-height: 32px;
+  position: relative;
+  float: left;
+  height: 32px;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+
+.list_customer > div.label > span:last-child {
+  width: 37%;
+}
+
+.list_customer > div.label > span.edt {
+  width: 25%;
+}
+
+.list_customer > div.label > span.edt_last {
+  width: 50%;
+}
+
+.list_customer > div.label > span > span {
+  position: absolute;
+  right: 0;
+  top: 6px;
+  width: 1px;
+  height: 20px;
+  background: #ddd;
+}
+
+/*详情*/
+.detail_li {
+  background: #fff;
+  /*border-top: 1px solid #c4c4c4;*/
+  overflow: hidden;
+  padding-left: 20px;
+  position: relative;
+  transition-property: height;
+  transition-duration: 300ms;
+  padding-bottom: 5px;
+}
+
+.detail_li > ul {
+  margin: 0;
+  padding: 8px 0 0 0;
+}
+
+.detail_li > ul > li {
+  padding: 5px 0;
+  list-style: none;
+}
+
+.detail_li > ul > li > label {
+  color: #999999;
+  font-size: 13px;
+  float: left;
+  line-height: 18px;
+}
+
+.detail_li > ul > li > div {
+  color: #333;
+  font-size: 13px;
+  padding: 0 15px 0 70px;
+  line-height: 18px;
+  min-height: 18px;
+}
+
+.detail_li > ul > li > div > span.mui-icon {
+  font-size: 14px;
+  margin-left: 5px;
+  line-height: 18px;
+  width: 40px;
+  text-align: center;
+  color: #cb0101;
+}
+
+.detail_li > span.edit {
+  position: absolute;
+  color: #888;
+  top: 10px;
+  right: 20px;
+  padding: 3px;
+}
+
+.detail_li > span.edit:before {
+  font-size: 20px;
+}
+
+.detail_li > div.bu_th {
+  height: 30px;
+  text-align: right;
+  padding-right: 16px;
+}
+
+.detail_li > div.bu_th > span {
+  display: inline-block;
+  border: 1px solid #e5e5e5;
+  color: #cb0101;
+  border-radius: 3px;
+  -webkit-border-radius: 3px;
+  font-size: 12px;
+  padding: 0 10px;
+  line-height: 30px;
+  margin: 0 4px;
+}
+
+.detail_li > div.bu_th > span.remark {
+  padding: 0 15px;
+}
+
+.detail_de > div.show_hide {
+  height: 36px;
+  font-size: 14px;
+  text-align: center;
+  color: #999;
+  background: #fff;
+  padding-top: 5px;
+  position: relative;
+}
+
+.detail_de > div.show_hide > span.show_more {
+  position: absolute;
+  top: 50%;
+  margin-top: -6px;
+  left: 50%;
+  margin-left: -16px;
+}
+
+.detail_de > div.show_hide > span {
+  font-size: 12px;
+  position: absolute;
+  right: 50%;
+  margin-right: -6px;
+}
+
+.detail_de > div.show_hide > span:before {
+  color: #999;
+}
+
+#sliderSegmentedControl {
+  background: #fff;
+}
+
+.detail_de > .mui-slider {
+  background: #f1f1f1;
+}
+
+/*客户-商机*/
+.customer_chance {
+  background: #fff;
+}
+
+.customer_chance > ul, .customer_chance p {
+  margin: 0;
+  padding: 0;
+}
+
+.customer_chance li {
+  height: 68px;
+  padding: 12px 0 12px 18px;
+}
+
+.customer_chance li > p {
+  font-size: 12px;
+  color: #999;
+  height: 16px;
+  line-height: 16px;
+  margin-top: 10px;
+}
+
+.customer_chance li > p.name {
+  font-size: 14px;
+  color: #333;
+  margin-top: 0;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  margin-right: 80px;
+}
+
+.customer_chance li > p > span {
+  color: #cb0101;
+  float: right;
+  margin-right: 26px;
+}
+
+.customer_chance li > span.status {
+  position: absolute;
+  right: 26px;
+  font-size: 12px;
+  color: #999;
+  top: 12px;
+}
+
+.customer_chance li > span.mui-icon:after {
+  right: 0;
+}
+
+/*详情 联系人*/
+.customer_contact_li {
+  background: #fff;
+  padding: 12px 0 12px 18px;
+  height: 64px;
+}
+
+.customer_contact_li > p {
+  margin: 8px 0 0 0;
+  color: #999;
+  font-size: 12px;
+  height: 16px;
+  line-height: 16px;
+}
+
+.customer_contact_li > p.title {
+  font-size: 14px;
+  color: #333;
+  margin: 0;
+}
+
+/*新建*/
+.add_more {
+  text-align: center;
+  color: #777;
+  font-size: 14px;
+  height: 40px;
+  line-height: 40px;
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+}
+
+.add_more > span.mui-icon {
+  color: #999;
+  font-size: 16px;
+  padding-right: 5px;
+}
+
+/*客户－销售团队*/
+.main_owner {
+  height: 50px;
+  line-height: 50px;
+  font-size: 15px;
+  padding: 0 15px 0 20px;
+  background: #fff;
+  border-bottom: 1px solid #c8c7cc;
+}
+
+.main_owner > span {
+  font-size: 14px;
+  color: #999;
+  float: right;
+}
+
+.chance_team .mui-table-cell {
+  position: relative;
+}
+
+.chance_team .mui-table-cell > img {
+  width: 38px;
+  height: 38px;
+  float: left;
+  margin-left: 5px;
+}
+
+.chance_team .mui-table-cell > p {
+  margin: 0;
+  line-height: 38px;
+  font-size: 14px;
+  color: #333;
+  padding: 0 0 0 58px;
+}
+
+.chance_team .mui-table-cell > span {
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  font-size: 14px;
+  margin-top: -15px;
+  color: #cb0101;
+  padding: 8px;
+}
+
+.chance_team .mui-table-cell > span:after {
+  color: #cbcbcb;
+}
+/*客户－销售团队 end*/
+/*遮罩*/
+.back_drop {
+  position: fixed;
+  z-index: 998;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, .3);
+}
+
+.edit_team {
+  background: #fff;
+  z-index: 999;
+  padding: 13px 0 33px 0;
+  position: absolute;
+  width: 100%;
+  bottom: -196px;
+  transition: bottom 300ms ease;
+}
+
+.edit_team > a {
+  color: #333333;
+  font-size: 14px;
+  padding: 17px 0 17px 30px;
+  display: block;
+}
+
+.edit_team > a:before {
+  font-size: 16px;
+  color: #cb0101;
+  padding-right: 14px;
+}
+
+.edit_team > a.delete {
+  color: #cb0101;
+}
+
+.mui-segmented-control.mui-segmented-control-inverted .mui-control-item {
+  color: #A7A6A6;
+  font-size: 15px;
+  border-bottom: 2px solid #ddd;;
+}
+
+.mui-segmented-control.mui-segmented-control-inverted .mui-control-item.mui-active {
+  color: #cb0101 !important;
+  border-bottom: 2px solid #cb0101 !important;
+  background-color: #fff;
+}
+
+.mui-slider .mui-segmented-control.mui-segmented-control-inverted ~ .mui-slider-group .mui-slider-item {
+  border: none !important;
+}
+/*修改Tab切换*/
+#itemTab {
+  position: relative;
+  bottom: auto;
+  background: #fff;
+  width: 100%;
+  border: 0;
+  border-radius: 0;
+  text-align: center;
+  display: table;
+  overflow: hidden;
+  font-size: 15px;
+  table-layout: fixed;
+}
+
+.detail_de .active {
+  color: #cb0101 !important;
+  border-bottom: 2px solid #cb0101 !important;
+}
+
+.detail_de .controlitem {
+  background-color: #fff;
+  line-height: 38px;
+  display: table-cell;
+  overflow: hidden;
+  transition: background-color .1s linear;
+  text-align: center;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+
+  color: #A7A6A6;
+  font-size: 15px;
+  border-bottom: 2px solid #ddd;
+}
+
+/*分配css*/
+.distributionBtn {
+  position: absolute;
+  font-size: 14px;
+  text-align: center;
+  line-height: 44px;
+  height: 44px;
+  background: #fff;
+  border-top: 1px solid #ddd;
+  color: #cb0101;
+  width: 100%;
+  bottom: 0;
+  z-index: 10;
+}
+
+.distributionBtn> span {
+  position: absolute;
+  top: 50%;
+  margin-top: -8px;
+  padding-left: 5px;
+  font-size: 16px;
+}
+/*分配 人员部门列表*/
+.select_person_dept {
+  background: #fff;
+}
+
+.select_person_dept> ul {
+  padding: 0;
+  margin: 0;
+}
+
+.select_person_dept> ul> li {
+  height: 44px;
+  line-height: 44px;
+  border-top: 1px solid #ddd;
+  font-size: 14px;
+  padding-left: 50px;
+  position: relative;
+}
+
+.select_person_dept> ul> li:last-child {
+  border-bottom: 1px solid #ddd;
+}
+
+.select_person_dept> ul> li> span.check:before {
+  position: absolute;
+  font-family: Muiicons;
+  content: "\a128";
+  color: #cb0101;
+  font-size: 18px;
+  left: 20px;
+}
+
+.select_person_dept> ul> li> span.not:before {
+  content: "\a127";
+  color: #aaa;
+}

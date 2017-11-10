@@ -1,0 +1,406 @@
+.mui-slider-indicator.mui-segmented-control-inverted {
+  background-color: #fff;
+  height: 42px;
+}
+
+#header {
+  position: fixed;
+}
+
+.nav-top {
+  position: fixed !important;
+  top: 44px;
+  z-index: 5;
+}
+
+.mui-segmented-control.mui-segmented-control-inverted .mui-control-item-e.mui-active {
+  color: #cb0101 !important;
+  border-bottom: 2px solid #FF1717 !important;
+  background-color: #fff;
+}
+
+.mui-segmented-control.mui-segmented-control-inverted .mui-control-item.mui-control-item-e {
+  color: #A7A6A6;
+  font-size: 15px;
+  border-bottom: 2px solid #ddd;
+}
+
+.mui-segmented-control.mui-segmented-control-inverted .mui-control-item-e {
+  color: #A7A6A6;
+  background-color: #fff;
+}
+
+/*转移记录*/
+.crm-zyList {
+  overflow: hidden;
+}
+
+.crm-zyList:first-child {
+  margin-top: 30px;
+}
+
+.crm-zyList ul {
+  padding-left: 0;
+}
+
+.crm-zyList ul li {
+  list-style: none;
+}
+
+.crm-zyList #header {
+  margin-top: 20px;
+  position: relative;
+  width: 88%;
+  border-bottom: 1px solid #cbcbcb;
+  margin-bottom: 20px;
+}
+
+.crm-zyList #header span {
+  position: absolute;
+  left: 40%;
+  top: -10px;
+  padding: 0 17px;
+  background: #fff;
+  font-size: 14px;
+  color: #989898;
+}
+
+.crm-zyList .content {
+  position: relative;
+  border-left: 1px solid #dddddd;
+  padding-bottom: 35px;
+  margin: 0 40px;
+  padding-left: 42px;;
+}
+
+.crm-zyList .content .bd-radius {
+  width: 42px;
+  height: 42px;
+  background: #fff;
+  position: absolute;
+  left: -20px;
+  top: 0;
+}
+
+.crm-zyList .bd-radius-first {
+  width: 22px;
+  height: 22px;
+  background: #fff;
+  position: absolute;
+  left: -11px;
+  top: 0;
+  border-radius: 22px;
+}
+
+.crm-zyList .bd-radius-first:after {
+  content: "\A174";
+  color: #cb0101;
+}
+
+.crm-zyList .zwcl {
+  padding-top: 4px;
+  color: #cb0101 !important;
+  font-size: 16px !important;
+}
+
+.crm-zyList .img-icon {
+  width: 38px !important;
+  height: 38px !important;
+  margin-top: 2px;
+}
+
+.crm-zyList .content :nth-of-type(2) {
+  font-size: 14px;
+  color: #999;
+  line-height: 12px;
+  margin-bottom: 5px;
+}
+
+.crm-zyList .content :nth-of-type(3) {
+  font-size: 16px;
+  color: #333;
+  margin-bottom: 5px;
+}
+
+.crm-zyList .content :nth-of-type(4) {
+  font-size: 14px;
+  color: #333;
+  margin-bottom: 5px;
+}
+
+.crm-zyList .content :nth-of-type(5) {
+  font-size: 14px;
+  color: #999;
+}
+
+.crm-zyList .content :nth-of-type(5) .crm-address:before {
+  font-size: 12px;
+  margin-left: -2px;
+}
+
+.button_two_l {
+  position: absolute;
+  bottom: 0;
+  height: 44px;
+  width: 100%;
+  border-top: 1px solid #d1d1d1;
+  background: rgba(249, 249, 249, 1);
+  z-index: 999;
+}
+
+.button_two_l > a {
+  margin: 0 auto;
+  padding: 0 20px;
+  line-height: 44px;
+  display: inline-block;
+  color: #cb0101;
+  font-size: 18px;
+  text-align: center;
+  width: 100%;
+}
+
+.crm-push-down {
+  top: 10px !important;
+}
+
+.mui-segmented-control.mui-segmented-control-inverted ~ .mui-slider-progress-bar {
+  background-color: #cb0101;
+  top: 1px;
+}
+
+.mui-segmented-control.mui-segmented-control-inverted .mui-control-item.mui-active {
+  color: #cb0101;
+}
+
+.mui-segmented-control.mui-segmented-control-inverted .mui-control-item {
+  color: #A7A6A6;
+}
+
+div.crm-detail1 span {
+  text-align: center;
+}
+
+.not_img img {
+  width: 100%;
+  height: 100%;
+}
+
+.search_d {
+  position: relative;
+}
+
+.search_d > input {
+  border: 0;
+  height: 30px;
+  border-radius: 15px;
+  width: 70%;
+  margin-top: 7px;
+  font-size: 14px;
+  padding-left: 32px;
+  margin-left: 10px;
+}
+
+.search_d > input::-webkit-input-placeholder {
+  /*color: #cb0101 !important;*/
+}
+
+.search_d > span:before {
+  font-family: Muiicons;
+  content: '\e466';
+  position: absolute;
+  left: 14%;
+  top: 50%;
+  margin-top: -10px;
+  color: #999;
+}
+
+.search_d > a {
+  display: inline-block;
+  width: 15%;
+  font-size: 14px;
+  padding-right: 2%;
+}
+
+.mui-table-view-chevron .mui-table-view-cell > a:not(.mui-btn) {
+  margin-right: -97px;
+}
+
+.mui-media .mui-navigate-right:after {
+  left: 85%;
+  top: 44%;
+}
+
+.mui-media-body p {
+  font-size: 14px;
+  color: #000;
+}
+
+.mui-ellipsis {
+  font-size: 12px;
+  display: inline-block;
+  color: #999;
+  width: 48%;
+}
+
+.price {
+  font-size: 12px;
+  color: #cb0101;
+  float: right;
+  margin-right: 13px;
+  margin-top: 3px;
+}
+
+.mui-icon-amount:before {
+  color: #cbcbcb;
+  margin-right: 7px;
+  font-size: 14px;
+}
+
+.mui-slider {
+  height: 222px;
+}
+
+.not_img {
+  width: 100%;
+  height: 222px;
+}
+
+.mui-slider .mui-slider-group .mui-slider-item img {
+  height: 222px !important;
+  width: 100% !important;
+}
+
+.cTop {
+  height: 65px;
+  width: 100%;
+  background: #fff;
+  padding-left: 4.5%;
+  overflow: hidden;
+}
+
+.cTop :nth-of-type(1) {
+  display: block;
+  width: 80%;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  font-size: 15px;
+  color: #323333;
+  margin-top: 12px;
+  margin-bottom: 5px;
+}
+
+.cTop :nth-of-type(2) {
+  font-size: 13px;
+  color: #cb0101;
+}
+
+.cTop :nth-of-type(3) {
+  float: right;
+  margin-top: -17px;
+}
+
+.cTop .crm-icon-collect {
+  border-left: 1px solid #ddd;
+  padding: 8px 18px;
+}
+
+.cTop .crm-icon-collects {
+  border-left: 1px solid #ddd;
+  padding: 8px 18px;
+}
+
+.cTop .crm-icon-collect:after {
+  font-size: 18px;
+  color: #ccc;
+}
+
+.cTop .crm-icon-collects:after {
+  font-size: 18px;
+  color: #EDA132;
+}
+
+.cBottom {
+  margin: 0;
+  padding: 0;
+  min-height: 106px;
+  overflow: hidden;
+  width: 100%;
+  border-top: 1px solid #ddd;
+  background: #fff;
+}
+
+.cBottom li {
+  font-size: 13px;
+  color: #999;
+  line-height: 26px;
+  margin-left: 15px;
+  list-style: none;
+}
+
+.cBottom li span {
+  color: #333;
+  margin-left: 5px;
+}
+
+.cBottom :nth-of-type(1) {
+  margin-top: 13px;
+}
+
+.cBottom .right {
+  display: inline-block;
+  width: 84%;
+  float: right;
+}
+
+/*分类 */
+#classify {
+  margin-top: 44px;
+}
+
+#classify li {
+  font-size: 15px;
+  color: #333 !important;
+}
+
+.margins {
+  margin-top: 44px;
+}
+
+.center > input {
+  width: 68% !important;
+  padding: 0 0 0 30% !important;
+  margin: 7px 0 7px 20px !important;
+}
+
+.center > a:last-child {
+  right: -2% !important;
+}
+
+.center > span:before {
+  left: 35% !important;
+}
+
+.mui-bar-nav ~ .mui-content {
+  height: 100%;
+}
+
+#app {
+  height: 100%;
+}
+
+.displayNone {
+  display: none;
+}
+
+#pullrefresh {
+  z-index: 999;
+}
+
+.mui-table-view .mui-media-object {
+  width: 42px;
+}
+
+.list_is_null {
+  z-index: 999;
+}

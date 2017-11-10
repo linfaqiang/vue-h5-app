@@ -1,0 +1,152 @@
+body {
+  background: #f1f1f1;
+}
+.mui-slider .mui-slider-group .mui-slider-item {
+  height: 150px;
+}
+
+.mui-slider .mui-slider-group .mui-slider-item img {
+  height: 150px;
+}
+
+.not_img {
+  width: 100%;
+  height: 150px;
+}
+
+.crm-addr:after {
+  font-size: 15px;
+}
+
+.crm-detail-right {
+  float: left;
+  width: 70%;
+}
+
+.not_img > img {
+  width: 100%;
+  height: 150px;
+}
+
+/*activity样式*/
+.mui-control-content {
+  background-color: white;
+  min-height: 215px;
+}
+
+.mui-control-content .mui-loading {
+  margin-top: 50px;
+}
+
+.mui-ellipsis {
+  font-weight: normal;
+  font-size: 15px;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.holding, .mui-h6 {
+  font-size: 13px;
+  font-weight: 400;
+  color: #989898;
+}
+
+.mui-h5 {
+  color: #989898;
+}
+
+.mui-bar-nav ~ {
+  padding-top: 40px !important;
+}
+
+.mui-table-view-cell:after {
+  left: 0 !important;
+}
+
+.mui-table-view-chevron .mui-table-view-cell {
+  padding-right: 21px;
+}
+
+.ing {
+  color: #49B768;
+}
+
+.no-start {
+  color: #cb0101;
+}
+
+#crm-detail .crm-detail-left {
+  color: #999;
+}
+
+.crm-clues:after {
+  color: #48a6d0;
+}
+
+.crm-task:after {
+  color: #45a636;
+}
+
+.crm-icon-chance:after {
+  color: #33b495;
+}
+
+.crm-icon-clues:after {
+  color: #de4145;
+}
+
+footer.voiceIn {
+  position: fixed;
+  width: 100%;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  left: 0;
+  bottom: 0;
+  overflow: hidden;
+  background-color: #fff;
+  color: #cb0101;
+  font-size: 15px;
+}
+
+.voiceIn > span.mui-icon {
+  font-size: 18px;
+  padding-right: 8px;
+}
+
+.search_d {
+  position: relative;
+}
+
+.search_d > input {
+  border: 0;
+  height: 30px;
+  border-radius: 15px;
+  width: 70%;
+  margin-top: 7px;
+  font-size: 14px;
+  padding-left: 32px;
+  margin-left: 10px;
+}
+
+.search_d > input::-webkit-input-placeholder {
+  color: #999 !important;
+}
+
+.search_d > span:before {
+  font-family: Muiicons;
+  content: '\e466';
+  position: absolute;
+  left: 14%;
+  top: 50%;
+  margin-top: -15px;
+  color: #999;
+}
+
+.search_d > a {
+  display: inline-block;
+  text-align: right;
+  width: 15%;
+  font-size: 14px;
+  padding-right: 2%;
+}

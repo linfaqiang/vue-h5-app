@@ -1,0 +1,466 @@
+/*列表条件选择*/
+.select_search {
+  position: absolute !important;
+  top: 84px !important;
+  width: 100%;
+}
+/*列表条件选择 end*/
+/*工作报告列表*/
+.work_report_li {
+  background: #fff;
+  margin-top: 10px;
+  height: 104px;
+}
+
+.work_report_li:nth-child(1) {
+  border-top: 0;
+}
+
+.work_report_li> div {
+  padding-left: 20px;
+}
+
+.work_report_li> div.own {
+  height: 32px;
+  line-height: 32px;
+  font-size: 14px;
+  color: #333;
+  padding-right: 10px;
+}
+
+.work_report_li> div.own> span {
+  font-size: 12px;
+  color: #999;
+  float: right;
+}
+
+.work_report_li> div.content {
+  position: relative;
+  padding: 10px 0 12px 20px;
+}
+
+.work_report_li> div.content> span.status {
+  position: absolute;
+  top: 8px;
+  right: 28px;
+  font-size: 12px;
+  line-height: 16px;
+}
+
+.work_report_li> div.content> span.red {
+  color: #cb0101;
+}
+
+.work_report_li> div.content> p {
+  margin: 0;
+  line-height: 16px;
+  font-size: 12px;
+}
+
+.work_report_li> div.content> p.two_row {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  padding-right: 35px;
+  height: 34px;
+}
+
+.work_report_li> div.content> span.mui-icon:after {
+  right: 2px;
+}
+/*工作报告列表 end*/
+/*工作报告详情*/
+.work_report_detail {
+  padding: 0 0 0 16px;
+  background: #fff;
+  border-bottom: 1px solid #ddd;
+}
+
+.work_report_detail textarea {
+  overflow-y:visible;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  border-radius: 0;
+}
+
+.work_report_detail p {
+  margin: 0;
+  padding: 0;
+}
+
+.work_report_detail> p.title {
+  height: 44px;
+  line-height: 50px;
+  color: #333;
+}
+
+.work_report_detail> div {
+  border-top: 1px solid #ddd;
+}
+
+.work_report_detail> div.content {
+  padding: 0 15px 0 0;
+}
+
+.work_report_detail> div p {
+  line-height: 16px;
+  color: #333;
+}
+
+.work_report_detail> div p> span {
+  position: relative;
+  padding-left: 5px;
+}
+
+.work_report_detail> div p> span> span {
+  position: absolute;
+  display: inline-block;
+  width: 2px;
+  background: #cb0101;
+  height: 12px;
+  top: 2px;
+  left: 0;
+}
+
+.work_report_detail> div p.ti {
+  padding-top: 16px;
+}
+
+.work_report_detail> div.content textarea {
+  font-size: 14px;
+  color: #999;
+  line-height: 24px;
+  padding: 14px 0;
+}
+
+.work_report_detail> div.content> div.next {
+  margin-top: 6px;
+}
+
+.work_report_detail> div.information {
+  padding: 8px 0 12px 0;
+}
+
+.work_report_detail> div.information li {
+  padding: 7px 0;
+}
+
+.work_report_detail> div.information li> label {
+  float: left;
+  color: #999;
+  font-size: 14px;
+  line-height: 16px;
+}
+
+.work_report_detail> div.information li> div {
+  color: #333;
+  font-size: 14px;
+  padding-left: 64px;
+  line-height: 16px;
+  min-height: 16px;
+}
+/*工作报告详情 end*/
+/*新建工作报告*/
+.add_form> ul> li.summary {
+  margin-left: 15px;
+  width: calc(100% - 15px);
+}
+
+.add_form> ul> li.summary> p {
+  font-size: 14px;
+  color: #ccc;
+}
+
+.add_form> ul> li.summary> p:before {
+  padding-right: 10px;
+  font-size: 15px;
+}
+
+.add_form> ul> li.summary> textarea {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  border-radius: 0;
+  font-size: 14px;
+  line-height: 20px;
+  color: #333;
+}
+/*人员选择*/
+.add_employee_title {
+  color: #cbcbcb;
+  padding: 12px 0 5px 15px;
+  margin-top: 10px;
+  line-height: 16px;
+  font-size: 14px;
+  background: #fff;
+  border-top: 1px solid #cbcbcb;
+}
+
+.add_employee {
+  background: #fff;
+  border-bottom: 1px solid #cbcbcb;
+  height: 68px;
+  padding: 5px 0 5px 15px;
+  z-index: 999;
+  width: 100%;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: flex-start;
+}
+
+.add_employee> div.list {
+  border: 0;
+}
+
+.add_employee> div.list ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  height: 100%;
+  flex: 0 1 auto;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: flex-end;
+}
+
+.add_employee> div.list ul> li {
+  margin: 0;
+  list-style: none;
+  width: 48px;
+  height: 100%;
+  flex: 1 0 auto;
+  -webkit-flex: 1 1 auto;
+  -webkit-box-flex: 1;
+  position: relative;
+  transition: all .3s ease;
+  display: inline-block;
+}
+
+.add_employee> div.list ul> li> img {
+  width: 36px;
+  height: 36px;
+  border-radius: 5px;
+  margin-left: 6px;
+  margin-top: 2px;
+}
+
+.add_employee> div.list ul> li> span {
+  position: absolute;
+  font-size: 12px;
+  line-height: 14px;
+  left: 0;
+  width: 100%;
+  text-align: center;
+  color: #333;
+  bottom: 2px;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+
+.add_employee> div.list ul> li> span.delete {
+  color: #cb0101;
+  top: 0;
+  height: 16px;
+  text-align: right;
+  width: 100%;
+  right: 0;
+}
+
+.add_employee> div.add_emp_bu {
+  transition: all .3s ease;
+  position: relative;
+  flex: 1 1 auto;
+  display: inline-block;
+}
+
+.add_employee> div.add_emp_bu> div {
+  width: 38px;
+  height: 38px;
+  background: #f9f9f9;
+  border-radius: 5px;
+  border: 1px solid #e5e5e5;
+  text-align: center;
+  line-height: 30px;
+  margin-left: 4px;
+  margin-top: 2px;
+}
+
+.add_employee> div.add_emp_bu> div:before {
+  color: #e0e0e0;
+}
+/*新建工作报告 end*/
+/*人员列表*/
+.person_li {
+  background: #fff;
+}
+
+.person_li> ul {
+  padding: 0;
+  margin: 0;
+}
+
+.person_li> ul> li {
+  list-style: none;
+  height: 58px;
+  padding: 9px 0;
+}
+
+.person_li> ul> li> img {
+  width: 38px;
+  height: 38px;
+  float: left;
+  margin-left: 10px;
+}
+
+.person_li> ul> li> p {
+  margin: 0;
+  line-height: 38px;
+  padding-left: 64px;
+  color: #333;
+}
+
+.person_li> ul> li> span.right {
+  position: absolute;
+  top: 50%;
+  font-size: 14px;
+  margin-top: -7px;
+  color: #cb0101;
+  right: 15px;
+}
+
+/*活动列表*/
+.comment_list {
+  background: #ffffff;
+  border-bottom: 1px solid #cbcbcb;
+}
+
+.comment_list> ul {
+  margin: 0;
+  padding: 0;
+}
+
+.comment_list> ul:last-child {
+  padding-bottom: 24px;
+}
+
+.comment_list> ul p {
+  margin: 7px 0 0 0;
+  padding-left: 42px;
+  color: #999;
+  font-size: 13px;
+  height: 22px;
+  line-height: 22px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.comment_list> ul p> span {
+  font-size: 15px;
+  padding-right: 5px;
+}
+
+.comment_list> ul p.block {
+  color: #333;
+}
+
+.comment_list> ul p.block> span.record {
+  width: 120px;
+  background: #f9f9f9;
+  display: inline-block;
+  border-radius: 4px;
+  font-size: 13px;
+  color: #717882;
+  border: 1px solid #ddd;
+  height: 22px;
+}
+
+.comment_list> ul p.block> span.record> span {
+  padding: 0 14px 0 16px;
+  font-size: 14px;
+}
+
+.comment_list> ul> li.group {
+  text-align: center;
+  color: #989898;
+  font-size: 13px;
+  position: relative;
+  padding: 12px 24px 12px 27px;
+}
+
+.comment_list> ul> li.group> span.line {
+  display: inline-block;
+  border-top: 1px solid #ddd;
+  position: absolute;
+  left: 27px;
+  top: 22px;
+  right: 24px;
+}
+
+.comment_list> ul> li.group> span.title {
+  display: inline-block;
+  padding: 0 16px;
+  background: #fff;
+  z-index: 1;
+  position: relative;
+}
+
+.comment_list> ul> li.content {
+  padding: 10px 30px 7px 0;
+  position: relative;
+}
+
+.comment_list> ul> li.content> span.point {
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  background: #cb0101;
+  border-radius: 5px;
+  top: 12px;
+  left: 22px;
+  z-index: 2;
+}
+
+.comment_list> ul> li.content> div.line_left {
+  position: absolute;
+  width: 1px;
+  height: 100%;
+  background: #ddd;
+  top: 22px;
+  left: 27px;
+}
+
+.comment_list> ul> li.content> p:nth-child(1) {
+  margin-top: 0;
+}
+
+.work_comment> p {
+  margin: 0;
+  height: 30px;
+  line-height: 34px;
+  padding-left: 15px;
+  border-bottom: 1px solid #ddd;
+}
+
+/*新建评论*/
+.comment_text {
+  height: 160px;
+  margin: 0;
+  font-size: 14px;
+  color: #333;
+}
+
+.words {
+  font-size: 12px;
+  color: #999;
+  float: right;
+  margin: 5px 10px 0 0;
+}

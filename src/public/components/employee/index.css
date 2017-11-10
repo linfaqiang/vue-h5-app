@@ -1,0 +1,340 @@
+.mui-bar-nav ~ .mui-content {
+  height: 100%;
+}
+
+#employee-select {
+  overflow: hidden;
+}
+
+#employee-select .search-box {
+  position: relative;
+  z-index: 10;
+  background-color: #ffffff;
+  width: 100%;
+  height: 86px;
+  border-bottom: 1px #e3e3e3 solid;
+  line-height: 50px;
+}
+
+#employee-select .search-box .top-bar-wrapper {
+  transition: all .1s ease;
+  height: 86px;
+  z-index: 1002;
+  width: 0;
+  overflow: hidden;
+  position: absolute;
+}
+
+#employee-select .search-box .top-bar-wrapper .top-bar-scroll {
+  position: absolute;
+  z-index: 1003;
+  height: 100%;
+}
+
+#employee-select .search-box .selected-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  height: 100%;
+  flex: 0 1 auto;
+  width: 0;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: flex-end;
+}
+
+#employee-select .search-box .selected-list li {
+  margin: 0;
+  list-style: none;
+  width: 48px;
+  height: 100%;
+  flex: 1 0 auto;
+  -webkit-flex: 1 1 auto;
+  -webkit-box-flex: 1;
+  padding: 15px 5px;
+  position: relative;
+  display: inline-block;
+}
+
+#employee-select .search-box .selected-list li > span {
+  position: absolute;
+  width: 100%;
+  bottom: 15px;
+  font-size: 11px;
+  text-align: center;
+  left: 0;
+  line-height: 12px;
+  color: #333;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+#employee-select .search-box .selected-list li img {
+  width: 38px;
+  height: 38px;
+  border: none;
+  margin: 0;
+  padding: 0;
+  border-radius: 5px;
+}
+
+#employee-select .search-box .selected-list li.expand-transition {
+  transition: all .1s ease;
+}
+
+#employee-select .search-box .selected-list li.expand-enter {
+  opacity: 1;
+}
+
+#employee-select .search-box .selected-list li.expand-leave {
+  opacity: 0;
+}
+
+#employee-select .search-box .search-flex {
+  transition: all .1s ease;
+  flex: 1 1 auto;
+  -webkit-flex: 1 1 auto;
+  -webkit-box-flex: 1;
+  display: inline-block;
+  position: absolute;
+  height: 85px;
+  top: 0;
+}
+
+#employee-select .search-box .search-flex .search-input {
+  border: none;
+  background-color: #ffffff;
+  text-align: left;
+  padding: 0 0 0 30px;
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  font-size: 15px;
+}
+
+#employee-select .search-box .search-flex .search-input:focus {
+  padding: 0 0 0 15px;
+}
+
+#employee-select .search-box .search-flex .search-input:focus + .mui-icon-search {
+  display: none;
+}
+
+#employee-select .search-box .search-flex .mui-icon-search {
+  position: absolute;
+  top: 50%;
+  margin-top: -12px;
+  left: 5px;
+  z-index: 1000;
+  font-size: 14px;
+  color: #999;
+}
+
+#employee-select .search-box .search-flex .mui-icon-search:before {
+  font-size: 16px;
+  padding: 4px;
+}
+
+#employee-select .search-box .search-flex .mui-icon-search .hide {
+  display: none;
+}
+
+#employee-select .search-box ~ .mui-table-view,
+#employee-select .search-box ~ .mui-table-view {
+  top: 86px;
+}
+
+#employee-select .mui-table-view-cell.mui-checkbox-crm.mui-left,
+#employee-select .mui-table-view-cell.mui-radio.mui-left {
+  padding-left: 40px;
+}
+
+#employee-select .mui-table-view-cell.mui-checkbox-crm input[type=checkbox],
+#employee-select .mui-table-view-cell.mui-radio input[type=radio] {
+  top: 15px;
+}
+
+#employee-select .dept-list .mui-checkbox-crm input[type=checkbox],
+#employee-select .mui-table-view-cell.mui-radio input[type=radio] {
+  top: 7px;
+}
+
+.mui-checkbox-crm input[type=checkbox]:checked:before,
+.mui-radio input[type=radio]:checked:before {
+  color: #d61518;
+}
+
+#employee-select .mui-table-view-cell > a:not(.mui-btn).mui-active {
+  /*background-color:;*/
+}
+
+.emp_sel_per {
+  position: relative;
+  height: 56px;
+  padding-left: 50px;
+}
+
+.emp_sel_per > .mui-icon {
+  color: #999;
+  position: absolute;
+  left: 14px;
+  top: 50%;
+  margin-top: -12px;
+}
+
+.emp_sel_per > .crm-solid-check {
+  color: #d61518;
+}
+
+.emp_sel_per > a {
+  border-bottom: 1px solid #ddd;
+  display: block;
+  height: 100%;
+}
+
+.emp_sel_per > a > img {
+  height: 38px;
+  width: 38px;
+  float: left;
+  margin-top: 9px;
+}
+
+.emp_sel_per > a > div {
+  color: #333;
+  padding: 7px 0 7px 50px;
+}
+
+.emp_sel_per > a > div > p {
+  margin: 0;
+}
+
+.mui-content ~ .mui-scroll-wrapper {
+  top: 100px;
+}
+
+.indexCodesBox {
+  height: 100%;
+  position: fixed;
+  top: 0;
+  right: 10px;
+  z-index: 998;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.indexCodesBox .indexCodes {
+  display: flex;
+  flex: 1 1 auto;
+  -webkit-flex: 1 1 auto;
+  -webkit-box-flex: 1;
+  height: 100%;
+  vertical-align: middle;
+  margin: 0;
+  padding: 95px 0 0 0;
+  list-style: none;
+  color: #999999;
+  font-size: xx-small;
+  line-height: 1;
+  flex-flow: column nowrap;
+}
+
+.indexCodesBox .indexCodes li {
+  margin: auto;
+  list-style: none;
+  display: inline-block;
+}
+
+/*部门员工选择样式优化*/
+.dept-list > li {
+  position: relative;
+}
+
+.dept-list > li > a {
+  font-size: 15px;
+  margin-left: 40px !important;
+  padding-left: 0 !important;
+  position: relative;
+}
+
+.dept-list > li > a > span.arrow:before {
+  position: absolute;
+  right: 10px;
+  color: #ddd;
+  top: 50%;
+  font-size: 22px;
+  margin-top: -12px;
+}
+
+/*.dept-list> li> a> span.up_dep {
+    max-width: 50%;
+    display: inline-block;
+    height: 21px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}*/
+
+.dept-list > li:after {
+  left: 54px;
+}
+
+.dept-list > li > span {
+  left: 16px !important;
+  position: absolute;
+  color: #999;
+  font-size: 22px;
+  top: 50%;
+  margin-top: -12px;
+}
+
+.dept-list > li > span.selected:after {
+  color: #d61518;
+}
+
+/*搜索列表*/
+.emp_search_list {
+  position: absolute;
+  top: 130px;
+  width: 100%;
+  background: #fff;
+  z-index: 10;
+}
+
+.mui-table-view .mui-media-object {
+  width: 42px;
+}
+
+.mui-checkbox-crm {
+  position: relative;
+}
+
+.mui-checkbox-crm input[type='checkbox'] {
+  position: absolute;
+  top: 20px !important;
+  right: 20px;
+  display: inline-block;
+  width: 28px;
+  height: 26px;
+  border: 0;
+  outline: 0 !important;
+  background-color: transparent;
+  -webkit-appearance: none;
+}
+
+.mui-checkbox-crm input[type='checkbox']:before {
+  font-family: Muiicons;
+  font-size: 24px;
+  font-weight: normal;
+  line-height: 1;
+  text-decoration: none;
+  color: #aaa;
+  border-radius: 0;
+  background: none;
+  -webkit-font-smoothing: antialiased;
+}
+
+.mui-checkbox-crm.mui-left input[type='checkbox'] {
+  left: 20px;
+}
